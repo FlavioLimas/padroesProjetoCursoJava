@@ -9,4 +9,8 @@ public class EventoChegadaAniversariante {
     public EventoChegadaAniversariante(Date momento) {
         this.momento = momento;
     }
+
+    public Date getMomento() {
+        return momento;
+    }
 }
