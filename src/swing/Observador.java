@@ -8,6 +8,8 @@ public class Observador {
         
         JFrame janela = new JFrame("Observador");
         janela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        janela.setSize(600, 200);
+
         janela.setVisible(true);
     }
 }
