@@ -8,5 +8,6 @@ public class Observador {
         
         JFrame janela = new JFrame("Observador");
         
+        janela.setVisible(true);
     }
 }
