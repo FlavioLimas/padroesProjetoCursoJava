@@ -1,5 +1,12 @@
 package observer;
 
-public class EventoChegadaAniversariante {
+import java.util.Date;
 
+public class EventoChegadaAniversariante {
+    
+    private final Date momento;
+
+    public EventoChegadaAniversariante(Date momento) {
+        this.momento = momento;
+    }
 }
