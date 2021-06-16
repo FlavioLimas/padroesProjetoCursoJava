@@ -1,13 +1,16 @@
 package observer;
 
-import java.util.Date;
-
 public class AniversarioSurpresa {
     
     public static void main(String[] args) {
-        Namorada namorada = new Namorada();
         Porteiro porteiro = new Porteiro();
+
+        Namorada namorada = new Namorada();
         porteiro.registrarObservador(namorada);
+
         porteiro.monitorar();
+
+        
+        porteiro.registrarObservador(e -> System.out.println("Surpresa via lambda!"));
     }
 }
