@@ -27,13 +27,11 @@ public class Observador {
         janela.addFocusListener(new FocusListener() {
             @Override
             public void focusLost(FocusEvent e) { // focus in
-                // TODO Auto-generated method stub
                 
             }
 
             @Override
             public void focusGained(FocusEvent e) { /// focus out
-                // TODO Auto-generated method stub
                 
             }
         });
