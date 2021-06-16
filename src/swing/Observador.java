@@ -22,7 +22,7 @@ public class Observador {
 
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Evento ocorreu");
+                System.out.println("Evento ocorreu!");
             }
         });
         janela.setVisible(true);
