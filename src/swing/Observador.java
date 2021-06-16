@@ -1,5 +1,8 @@
 package swing;
 
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.SpringLayout;
@@ -19,6 +22,20 @@ public class Observador {
 
         button.addActionListener(e -> {
             System.out.println("Evento ocorreu!!!");
+        });
+
+        janela.addFocusListener(new FocusListener() {
+            @Override
+            public void focusLost(FocusEvent e) { // focus in
+                // TODO Auto-generated method stub
+                
+            }
+
+            @Override
+            public void focusGained(FocusEvent e) { /// focus out
+                // TODO Auto-generated method stub
+                
+            }
         });
         janela.setVisible(true);
     }
